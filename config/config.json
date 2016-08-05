@@ -1,0 +1,36 @@
+{
+	"SocialLinks" : [
+		{
+			"name" : "Twitter",
+			"Link" : "",
+			"Icon" : "images/Twitter.jpg"
+		},
+		{
+			"name" : "LinkedIn",
+			"Link" : "",
+			"Icon" : "images/LinkedIn.jpg"
+		},
+		{
+			"name" : "Github",
+			"Link" : "",
+			"Icon" : "images/Github.jpg"
+		}
+	],
+	"ProjectLinks" : [	
+		{
+			"Title" : "Eventer ",
+			"Desc"  : "A unity framework for creating and triggering custom events without having to go through the apple/google play submission process.",
+			"Link"  : "https://github.com/IrishBrogrammer/Eventer" 
+		},
+		{
+			"Title" : "Logger",
+			"Desc" : "An on-going work in progress to create an alternativeto the unity logging system including a new console.",
+			"Link" : "https://github.com/IrishBrogrammer/Logger"
+		},
+		{
+			"Title" : "Arena Test",
+			"Desc" : "An app to compare your arena drafting skills to Hearthstone Professionals ",
+			"Link" : "https://github.com/IrishBrogrammer/ArenaTest"
+		}
+	]
+}

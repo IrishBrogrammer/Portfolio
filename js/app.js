@@ -11,7 +11,7 @@ function HomePageViewModel()
 	{
 		$.getJSON("config/config.json" , function( data ) 
 		{
-			self.Name = "Loading";	
+			self.firstName = "Loading";	
 		});	
 	}	
 }

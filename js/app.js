@@ -6,7 +6,7 @@ function AppViewModel()
 function HomePageViewModel()
 {
 	var self = this;
-	this.firstName = "Brian";
+	this.firstName = ko.observable();
 	
 	self.init = function()
 	{
@@ -14,7 +14,6 @@ function HomePageViewModel()
 		{
 			console.log( " loaded" );
 			self.firstName = "Loading";	
-			ko.applyBindings( this );
 		});	
 	}	
 }
@@ -23,6 +22,7 @@ function PageSetup()
 {
 	
 	var vm = new HomePageViewModel();
+	ko.applyBindings( vm );
 	vm.init();
 
 }

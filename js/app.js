@@ -24,6 +24,12 @@ function PageSetup()
 	ko.applyBindings( vm );
 }
 
-PageSetup();
+
+
+$(document).ready(function () {
+
+  PageSetup();
+});
+
 
 

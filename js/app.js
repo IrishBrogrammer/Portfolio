@@ -6,7 +6,8 @@ function AppViewModel()
 function HomePageViewModel()
 {
 	var self = this;
-
+	this.firstName = "Brian";
+	
 	self.init = function()
 	{
 		$.getJSON("config/config.json" , function( data ) 

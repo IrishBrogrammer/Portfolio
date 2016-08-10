@@ -13,6 +13,7 @@ function HomePageViewModel()
 		$.getJSON("config/config.json" , function( data ) 
 		{
 			self.firstName = "Loading";	
+			ko.applyBindings( this );
 		});	
 	}	
 }
@@ -22,7 +23,7 @@ function PageSetup()
 	
 	var vm = new HomePageViewModel();
 	vm.init();
-	ko.applyBindings( vm );
+
 }
 
 

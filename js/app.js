@@ -7,7 +7,7 @@ function HomePageViewModel()
 {
 	var self = this;
 
-	self.init = new function()
+	self.init = function()
 	{
 		$.getJSON("config/config.json" , function( data ) 
 		{

@@ -13,7 +13,7 @@ function HomePageViewModel()
 		$.getJSON("config/config.json" , function( data ) 
 		{
 			console.log( " loaded" );
-			self.firstName = "Loading";	
+			self.firstName("Loading" );
 		});	
 	}	
 }

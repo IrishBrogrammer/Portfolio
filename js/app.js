@@ -17,7 +17,7 @@ function HomePageViewModel()
 		{
 			console.log( " loaded" );
 			self.firstName(data.title );
-			self.Social = data.SocialLinks;
+			self.Social( data.SocialLinks );
 		});	
 	}	
 }

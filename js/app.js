@@ -3,6 +3,15 @@ function AppViewModel()
 	this.firstName = "Brian";
 }
 
+
+function SocialViewModel( desc , url , img )
+{
+	var self = this;
+	this.Desc = desc;
+	this.Url = url;
+	this.ImgURL = img;
+}
+
 function HomePageViewModel()
 {
 	var self = this;
@@ -17,7 +26,12 @@ function HomePageViewModel()
 		{
 			console.log( " loaded" );
 			self.firstName(data.title );
-			self.Social( data.SocialLinks );
+			self.Social( _.map( data.SocialLinks , 
+				function( val , key )
+				{
+					return new SocialViewModel( val.desc , val.Link, val.Image);
+				}	
+			 ));
 		});	
 	}	
 }

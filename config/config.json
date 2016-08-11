@@ -3,17 +3,17 @@
 	"SocialLinks" : [
 		{
 			"desc" : "Twitter",
-			"Link" : "",
+			"Link" : "https://twitter.com/IrishBrogrammer",
 			"Icon" : "images/Twitter.jpg"
 		},
 		{
 			"desc" : "LinkedIn",
-			"Link" : "",
+			"Link" : "https://www.linkedin.com/in/brian-mcaleese-5859ba49",
 			"Icon" : "images/LinkedIn.jpg"
 		},
 		{
 			"desc" : "Github",
-			"Link" : "",
+			"Link" : "https://github.com/IrishBrogrammer",
 			"Icon" : "images/Github.jpg"
 		}
 	],

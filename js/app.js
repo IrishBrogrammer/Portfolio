@@ -7,6 +7,7 @@ function AppViewModel()
 function SocialViewModel( desc , url , img )
 {
 	var self = this;
+	console.log( " Desc " + desc);
 	this.Desc = desc;
 	this.Url = url;
 	this.ImgURL = img;

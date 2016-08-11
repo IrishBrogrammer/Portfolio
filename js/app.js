@@ -32,6 +32,14 @@ function HomePageViewModel()
 			testArray.push( new SocialViewModel( " brian" , " 1 " , " 2 "));
 			self.Social( testArray );
 			
+			var configArray = _.map( data.SocialLinks , 
+				function( v , k ) 
+				{
+					return new SocialViewModel( v.desc , v.Link, v.Image);	
+				});_
+			
+			self.Social( configArray );
+			
 			//self.Social( _.map( data.SocialLinks , 
 		//		function( val , key )
 		//		{

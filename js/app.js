@@ -27,12 +27,16 @@ function HomePageViewModel()
 		{
 			console.log( " loaded" );
 			self.firstName(data.title );
-			self.Social( _.map( data.SocialLinks , 
-				function( val , key )
-				{
-					return new SocialViewModel( val.desc , val.Link, val.Image);
-				}	
-			 ));
+			
+			self.Social.push( new SocialViewModel( "Brian" , "1" , "2"));
+    
+			
+			//self.Social( _.map( data.SocialLinks , 
+		//		function( val , key )
+		//		{
+		//			return new SocialViewModel( val.desc , val.Link, val.Image);
+		//		}	
+		//	 ));
 		});	
 	}	
 }

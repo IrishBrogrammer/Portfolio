@@ -28,8 +28,9 @@ function HomePageViewModel()
 			console.log( " loaded" );
 			self.firstName(data.title );
 			
-			self.Social.push( new SocialViewModel( "Brian" , "1" , "2"));
-    
+			var testArray = [];
+			testArray.push( new SocialViewModel( " brian" , " 1 " , " 2 "));
+			self.Social( testArray );
 			
 			//self.Social( _.map( data.SocialLinks , 
 		//		function( val , key )

@@ -2,17 +2,17 @@
 	"title" : "Working",
 	"SocialLinks" : [
 		{
-			"name" : "Twitter",
+			"desc" : "Twitter",
 			"Link" : "",
 			"Icon" : "images/Twitter.jpg"
 		},
 		{
-			"name" : "LinkedIn",
+			"desc" : "LinkedIn",
 			"Link" : "",
 			"Icon" : "images/LinkedIn.jpg"
 		},
 		{
-			"name" : "Github",
+			"desc" : "Github",
 			"Link" : "",
 			"Icon" : "images/Github.jpg"
 		}

@@ -6,7 +6,10 @@ function AppViewModel()
 function HomePageViewModel()
 {
 	var self = this;
+	
 	this.firstName = ko.observable();
+	this.Social = ko.observableArray([]);
+	
 	
 	self.init = function()
 	{
@@ -14,6 +17,7 @@ function HomePageViewModel()
 		{
 			console.log( " loaded" );
 			self.firstName(data.title );
+			self.Social = data.SocialLinks;
 		});	
 	}	
 }

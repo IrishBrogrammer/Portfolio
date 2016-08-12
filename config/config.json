@@ -4,17 +4,17 @@
 		{
 			"desc" : "Twitter",
 			"Link" : "https://twitter.com/IrishBrogrammer",
-			"Icon" : "images/Twitter.jpg"
+			"Icon" : "images/twitter.png"
 		},
 		{
 			"desc" : "LinkedIn",
 			"Link" : "https://www.linkedin.com/in/brian-mcaleese-5859ba49",
-			"Icon" : "images/LinkedIn.jpg"
+			"Icon" : "images/twitter.png"
 		},
 		{
 			"desc" : "Github",
 			"Link" : "https://github.com/IrishBrogrammer",
-			"Icon" : "images/Github.jpg"
+			"Icon" : "images/twitter.png"
 		}
 	],
 	"ProjectLinks" : [	

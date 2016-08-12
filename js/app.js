@@ -38,8 +38,6 @@ function PageSetup()
 
 }
 
-
-
 $(document).ready(function () {
 
   PageSetup();

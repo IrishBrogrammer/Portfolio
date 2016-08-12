@@ -79,14 +79,11 @@
           <p> Zerolight </p>
         </div>
         
-        <table>
-          <tr>
-          <tbody data-bind = "foreach: Social">
-              <td> <img width = "20px" height = "20px" data-bind = "attr : { src : ImgURL}"/></td>
-          </tbody>
-          </tr>
-        </table>
-        <p> Knockout Test : <strong data-bind="text : firstName"></strong></p>
+        <div class = "SocialContainer">
+           <ul data-bind = "foreach : Social" >
+            <li data-bind="style : { 'background' : 'url( 'ImgURL') no-repeat center center'}"></li>      
+           </ul>
+        </div>
         
        
      </div>

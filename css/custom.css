@@ -44,4 +44,11 @@ a
   color: #e81c4f;
 }
 
+.socialItem
+{
+   width : 48px;
+   height: 48px;
+   border-radius: 50%;
+}
+
 

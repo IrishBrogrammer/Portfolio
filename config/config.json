@@ -9,12 +9,12 @@
 		{
 			"desc" : "LinkedIn",
 			"Link" : "https://www.linkedin.com/in/brian-mcaleese-5859ba49",
-			"Icon" : "images/twitter.png"
+			"Icon" : "images/linkedin.png"
 		},
 		{
 			"desc" : "Github",
 			"Link" : "https://github.com/IrishBrogrammer",
-			"Icon" : "images/twitter.png"
+			"Icon" : "images/github.png"
 		}
 	],
 	"ProjectLinks" : [	

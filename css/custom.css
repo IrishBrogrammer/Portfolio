@@ -43,9 +43,17 @@ a
   color: #e81c4f;
 }
 
+.socialContainer
+{
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+
 .socialItem
 {
-  list-style-type: none;
+  display: inline;
 }
 
 

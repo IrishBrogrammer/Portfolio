@@ -23,7 +23,7 @@ function HomePageViewModel()
 			self.Social( _.map( data.SocialLinks , 
 				function( v , k ) 
 				{
-					return new SocialViewModel( v.desc , v.Link, v.Image);	
+					return new SocialViewModel( v.desc , v.Link, v.Icon);	
 				}));
 		});	
 	}	

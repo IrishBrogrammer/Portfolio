@@ -30,7 +30,7 @@ function HomePageViewModel()
 {
 	var self = this;
 	
-	this.About = ko.obserable();
+	this.About = ko.observable();
 	this.Social = ko.observableArray([]);
 	this.Work   = ko.observableArray([]);
 	this.Projects = ko.observableArray([]);

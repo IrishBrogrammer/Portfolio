@@ -39,7 +39,7 @@ function HomePageViewModel()
 	{
 		$.getJSON("config/config.json" , function( data ) 
 		{
-			self.firstName(data.About );
+			self.About(data.About );
 			self.Social( _.map( data.SocialLinks , MapSocialModel) );
 			self.Work( _.map( data.ProWork , MapProjectModel ) );
 			self.Projects( _.map( data.ProjectLinks , MapProjectModel ));

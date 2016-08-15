@@ -6,25 +6,40 @@ function SocialViewModel( desc , url , img )
 	this.ImgURL = img;
 }
 
+function MapSocialModel( val ,key )
+{
+	return new SocialViewModel( v.desc , v.Link, v.Icon);	
+}
+
+
+function WorkViewModel( title , desc, link )
+{
+	this.Title = title;
+	this.Desc = desc;
+	this.URL = url;
+}
+
+function MapWorkModel( val , key )
+{
+	return new WorkViewModel( v.Title , v.Desc , v.Link );
+}
+
+
 function HomePageViewModel()
 {
 	var self = this;
 	
 	this.firstName = ko.observable();
 	this.Social = ko.observableArray([]);
-	
+	this.Work   = ko.observableArray([]);
 	
 	self.init = function()
 	{
 		$.getJSON("config/config.json" , function( data ) 
 		{
 			self.firstName(data.title );
-		
-			self.Social( _.map( data.SocialLinks , 
-				function( v , k ) 
-				{
-					return new SocialViewModel( v.desc , v.Link, v.Icon);	
-				}));
+			self.Social( _.map( data.SocialLinks , MapSocialModel) );
+			self.Work( _.map( data.ProWork , MapWorkModel ) );
 		});	
 	}	
 }

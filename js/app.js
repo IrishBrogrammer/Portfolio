@@ -30,7 +30,7 @@ function HomePageViewModel()
 {
 	var self = this;
 	
-	this.firstName = ko.observable();
+	this.About = ko.obserable();
 	this.Social = ko.observableArray([]);
 	this.Work   = ko.observableArray([]);
 	this.Projects = ko.observableArray([]);
@@ -39,7 +39,7 @@ function HomePageViewModel()
 	{
 		$.getJSON("config/config.json" , function( data ) 
 		{
-			self.firstName(data.title );
+			self.firstName(data.About );
 			self.Social( _.map( data.SocialLinks , MapSocialModel) );
 			self.Work( _.map( data.ProWork , MapProjectModel ) );
 			self.Projects( _.map( data.ProjectLinks , MapProjectModel ));

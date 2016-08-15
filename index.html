@@ -78,10 +78,12 @@
           
         
         
-            <h2> Professional Work </h2>
-            <p> CSR Racing </p>
-            <p> Zerolight </p>
-       
+           <div class = "ProWork">
+               <h2> Professional Work </h2> 
+               <div class = "Work Container" data-bind = "foreach : Work">
+                   <p data-bind = "text : Title"></p>
+               </div>
+           </div>
        
            </div>
         </div>

@@ -60,24 +60,14 @@
            In my spare time I enjoying programming,food, going to the gym, reading programming blogs and binging on Netflix. 
            </p>
 
-
-              
-           <h2> Personal Projects </h2>
-           <h3> Eventer </h3>
-           <p>  A unity framework for creating and triggering custom events without having to go through the apple/google play submission process. </p>
- 
-           <h3> Logger </h3>
-           <p> An on-going work in progress to create an alternativeto the unity logging system including a new console. 
-             
-             
-           <h3> Arena Test </h3>
-           <p> An app to compare your arena drafting skills to Hearthstone Professionals </p>
-          
-           <h3> University Work </h3>
-           <p> Some screen shots of work I completed at University </p>
-          
-        
-        
+           <div class = "Projects">
+              <h2> Personal Projects <h2> 
+              <div class = "Project Container" data-bind = "foreach : Projects">
+                <h3 data-bind = " text: Title"></h3>
+                <p data-bind = "text : Desc"></p>
+              </div>
+           </div>
+                
            <div class = "ProWork">
                <h2> Professional Work </h2> 
                <div class = "Work Container" data-bind = "foreach : Work">

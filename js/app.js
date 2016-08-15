@@ -12,17 +12,18 @@ function MapSocialModel( val ,key )
 }
 
 
-function WorkViewModel( title , desc, link )
+function ProjectViewModel( title , desc, link )
 {
 	this.Title = title;
 	this.Desc = desc;
 	this.URL = link;
 }
 
-function MapWorkModel( val , key )
+function MapProjectModel( val , key )
 {
-	return new WorkViewModel( val.Title , val.Desc , val.Link );
+	return new ProjectViewModel( val.Title , val.Desc , val.Link );
 }
+
 
 
 function HomePageViewModel()
@@ -32,6 +33,7 @@ function HomePageViewModel()
 	this.firstName = ko.observable();
 	this.Social = ko.observableArray([]);
 	this.Work   = ko.observableArray([]);
+	this.Projects = ko.observableArray([]);
 	
 	self.init = function()
 	{
@@ -39,7 +41,8 @@ function HomePageViewModel()
 		{
 			self.firstName(data.title );
 			self.Social( _.map( data.SocialLinks , MapSocialModel) );
-			self.Work( _.map( data.ProWork , MapWorkModel ) );
+			self.Work( _.map( data.ProWork , MapProjectModel ) );
+			self.Projects( _.map( data.ProjectLinks , MapProjectModel ));
 		});	
 	}	
 }

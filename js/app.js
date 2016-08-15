@@ -8,7 +8,7 @@ function SocialViewModel( desc , url , img )
 
 function MapSocialModel( val ,key )
 {
-	return new SocialViewModel( v.desc , v.Link, v.Icon);	
+	return new SocialViewModel( val.desc , val.Link, val.Icon);	
 }
 
 
@@ -21,7 +21,7 @@ function WorkViewModel( title , desc, link )
 
 function MapWorkModel( val , key )
 {
-	return new WorkViewModel( v.Title , v.Desc , v.Link );
+	return new WorkViewModel( val.Title , val.Desc , val.Link );
 }
 
 

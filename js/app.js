@@ -16,7 +16,7 @@ function WorkViewModel( title , desc, link )
 {
 	this.Title = title;
 	this.Desc = desc;
-	this.URL = url;
+	this.URL = link;
 }
 
 function MapWorkModel( val , key )

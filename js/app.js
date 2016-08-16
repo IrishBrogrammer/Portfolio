@@ -25,6 +25,21 @@ function MapProjectModel( val , key )
 }
 
 
+function WorkViewModel( title , desc , link , icon , thumbnail )
+{
+	this.Title = title;
+	this.Desc = desc;
+	this.URL = link;
+	this.Icon = icon;
+	this.Thumbnail = thumbnail;
+}
+
+function MapWorkModel( val , key )
+{
+	return new WorkViewModel( val.Title , val.Desc , val.Link , val.Icon , val.Thumb );
+}
+
+
 
 function HomePageViewModel()
 {
@@ -41,7 +56,7 @@ function HomePageViewModel()
 		{
 			self.About(data.About );
 			self.Social( _.map( data.SocialLinks , MapSocialModel) );
-			self.Work( _.map( data.ProWork , MapProjectModel ) );
+			self.Work( _.map( data.ProWork , MapWorkModel ) );
 			self.Projects( _.map( data.ProjectLinks , MapProjectModel ));
 		});	
 	}	

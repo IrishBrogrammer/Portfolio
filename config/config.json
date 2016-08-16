@@ -26,13 +26,16 @@
 		{
 			"Title" : "CSR Racing",
 			"Desc"  : "",
-			"Link"  : "https://itunes.apple.com/us/app/csr-racing/id469369175"
-			
+			"Link"  : "https://itunes.apple.com/us/app/csr-racing/id469369175",
+			"Icon"  : "images/csr.png",
+			"Thumb" : "images/csr_thumb.png"
 		},
 		{
 			"Title" : "Zerolight",
 			"Desc"  : "",
-			"Link"  : "https://www.zerolight.com/"
+			"Link"  : "https://www.zerolight.com/",
+			"Icon"  : "images/zerolight.png",
+			"Thumb" : "images/pagani_thumb.jpg"
 		}	
 	],
 	"ProjectLinks" : [	

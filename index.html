@@ -69,6 +69,9 @@
               <div class = "Project Container" data-bind = "foreach : Projects">
                 <h3 data-bind = " text: Title"></h3>
                 <p data-bind = "text : Desc"></p>
+                <a target="_blank"data-bind = " attr : {href : Url }">
+                  <p> Available on github </p>
+                </a>
               </div>
            </div>
                 
@@ -83,13 +86,11 @@
         </div>
     </div>
        
-       
-       
     <div class = "PageBottom">
          <div class = "SocialParent">
             <ul class ="socialContainer" data-bind = "foreach : Social" >
               <li class = "socialItem"> 
-                <a data-bind = " attr : {href : Url}">
+                <a target="_blank"data-bind = " attr : {href : Url }">
                   <img class="socialIcon" data-bind = " attr : { src : ImgURL}"/>
                 </a> 
               </li>      

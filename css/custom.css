@@ -59,6 +59,13 @@ a
 }
 
 
+.workRow
+{
+  padding: 5px;
+  display: inline;
+}
+
+
 .socialIcon
 {
    width : 48px;

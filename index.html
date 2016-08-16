@@ -78,7 +78,17 @@
            <div class = "ProWork">
                <h2> Professional Work </h2> 
                <div class = "Work Container" data-bind = "foreach : Work">
-                   <p data-bind = "text : Title"></p>
+                   <div class = "row">
+                       
+                       <div class = "three columns">
+                           <p data-bind = "text : Title" ></p>
+                       </div>
+                       
+                        <div class = "six columns">
+                           <p data-bind = "text : Desc" ></p>
+                       </div>
+                       
+                   </div>              
                </div>
            </div>
        

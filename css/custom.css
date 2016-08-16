@@ -51,15 +51,13 @@ a
   list-style-type: none;
 }
 
-
-.socialItem
+.sectionTitle
 {
-  padding: 5px;
-  display: inline;
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: center;
 }
 
-
-.workRow
+.socialItem
 {
   padding: 5px;
   display: inline;

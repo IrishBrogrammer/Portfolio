@@ -40,7 +40,6 @@ h2
 
 a
 {
-  color: #e81c4f;
   text-decoration: none;
 }
 
@@ -55,6 +54,13 @@ a
 {
   font-family: 'Lobster', sans-serif;
   text-align: center;
+}
+
+
+#AboutText
+{
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
 }
 
 .socialItem

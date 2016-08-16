@@ -2,7 +2,7 @@
 function SocialViewModel( desc , url , img )
 {
 	this.Desc = desc;
-	this.Url = url;
+	this.URL = url;
 	this.ImgURL = img;
 }
 

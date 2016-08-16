@@ -79,6 +79,7 @@
            <div class = "ProWork">
                <h2 class = "sectionTitle"> Professional Work </h2> 
                <div class = "container" data-bind = "foreach : Work">
+                   <a target="_blank" data-bind = " attr : {href : URL }">
                    <div class = "row">
                        
                        <div class = "three columns">
@@ -91,9 +92,9 @@
                        
                        <div class = "three columns">
                          <image data-bind = " attr : { src : Icon}"/>
-                       
-                   </div>              
-               </div>
+                       </div>              
+                  </div>
+                  </a>
            </div>
        
            </div>
@@ -105,7 +106,7 @@
             <div class = "container">
             <ul class ="socialContainer" data-bind = "foreach : Social" >
               <li class = "socialItem"> 
-                <a target="_blank"data-bind = " attr : {href : Url }">
+                <a target="_blank"data-bind = " attr : {href : URL }">
                   <img class="socialIcon" data-bind = " attr : { src : ImgURL}"/>
                 </a> 
               </li>      

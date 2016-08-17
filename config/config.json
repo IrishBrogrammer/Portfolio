@@ -45,9 +45,9 @@
 			"Link"  : "https://github.com/IrishBrogrammer/Eventer" 
 		},
 		{
-			"Title" : "Logger",
+			"Title" : "Paper",
 			"Desc" : "An on-going work in progress to create an alternativeto the unity logging system including a new console.",
-			"Link" : "https://github.com/IrishBrogrammer/Logger"
+			"Link" : "https://github.com/IrishBrogrammer/PaperLog"
 		},
 		{
 			"Title" : "Arena Test",

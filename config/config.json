@@ -4,17 +4,20 @@
 		{
 			"desc" : "Twitter",
 			"Link" : "https://twitter.com/IrishBrogrammer",
-			"Icon" : "images/twitter.png"
+			"Icon" : "images/twitter.png",
+			"Class" : "fa fa-linkedin fa-4x"
 		},
 		{
 			"desc" : "LinkedIn",
 			"Link" : "https://www.linkedin.com/in/brian-mcaleese-5859ba49",
-			"Icon" : "images/linkedin.png"
+			"Icon" : "images/linkedin.png",
+			"Class" : "fa fa-linkedin fa-4x"
 		},
 		{
 			"desc" : "Github",
 			"Link" : "https://github.com/IrishBrogrammer",
-			"Icon" : "images/github.png"
+			"Icon" : "images/github.png",
+			"Class" : "fa fa-linkedin fa-4x"
 		}
 	],
 	"ProWork" : [

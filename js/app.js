@@ -1,14 +1,15 @@
 
-function SocialViewModel( desc , url , img )
+function SocialViewModel( desc , url , img , cls  )
 {
 	this.Desc = desc;
 	this.URL = url;
 	this.ImgURL = img;
+	this.Class = cls;
 }
 
 function MapSocialModel( val ,key )
 {
-	return new SocialViewModel( val.desc , val.Link, val.Icon);	
+	return new SocialViewModel( val.desc , val.Link, val.Icon , val.Class);	
 }
 
 

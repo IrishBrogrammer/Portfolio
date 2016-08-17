@@ -5,7 +5,7 @@
 			"desc" : "Twitter",
 			"Link" : "https://twitter.com/IrishBrogrammer",
 			"Icon" : "images/twitter.png",
-			"Class" : "fa fa-linkedin fa-4x"
+			"Class" : "fa fa-twitter fa-4x"
 		},
 		{
 			"desc" : "LinkedIn",
@@ -17,7 +17,7 @@
 			"desc" : "Github",
 			"Link" : "https://github.com/IrishBrogrammer",
 			"Icon" : "images/github.png",
-			"Class" : "fa fa-linkedin fa-4x"
+			"Class" : "fa fa-github fa-4x"
 		}
 	],
 	"ProWork" : [

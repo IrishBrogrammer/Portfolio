@@ -112,7 +112,10 @@
     <div id = "contact">   
       
               <div class = "container">
-              <h2> Contact Me </h2>
+              
+              <div class = "offset-by-five">
+                  <h2> Contact Me </h2>
+              </div>
               
               <p class = "contactText"> Please send me a message by email if you would like to contact me </p>
               
@@ -125,18 +128,20 @@
                   </div>
               </div>
               
-              <div class = "SocialParent">
-                 <div class = "container">
-                 <ul class ="socialContainer" data-bind = "foreach : Social" >
-                 <li class = "socialItem"> 
-                     <a target="_blank"data-bind = " attr : {href : URL }">
-                     <img class="socialIcon" data-bind = " attr : { src : ImgURL}"/>
-                     </a> 
-                 </li>      
-                 </ul>
+              <div class = "offset-by-three six columns">
+                  <div class = "SocialParent">
+                  <div class = "container">
+                       <ul class ="socialContainer" data-bind = "foreach : Social" >
+                       <li class = "socialItem"> 
+                           <a target="_blank"data-bind = " attr : {href : URL }">
+                           <img class="socialIcon" data-bind = " attr : { src : ImgURL}"/>
+                           </a> 
+                       </li>      
+                       </ul>
+                 </div>
                  </div>
             </div>
-            </div>
+           </div>
    </div>
        
        

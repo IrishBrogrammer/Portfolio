@@ -56,8 +56,11 @@ a
   text-align: center;
 }
 
-.
 
+.workRow
+{
+    text-align:  center; 
+}
 
 
 .workRow:hover {

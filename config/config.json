@@ -15,6 +15,11 @@
 			"desc" : "Github",
 			"Link" : "https://github.com/IrishBrogrammer",
 			"Icon" : "images/github.png"
+		},
+		{
+			"desc" : "Email",
+			"Link" : "mailto:bmcaleese12@gmail.com",
+			"Icon" : "images/github.png"
 		}
 	],
 	"ProWork" : [

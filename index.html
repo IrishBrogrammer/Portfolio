@@ -66,6 +66,7 @@
            <p id = "AboutText"" data-bind = "text : About"> </p>
            
            <div class = "Projects">
+              <div class = "offset-by-three six columns">
               <h2 class = "sectionTitle"> Personal Projects </h2> 
               <div class = "Project Container" data-bind = "foreach : Projects">
                 <h3 data-bind = " text: Title"></h3>
@@ -74,12 +75,12 @@
                   <p> Available on github </p>
                 </a>
               </div>
+              </div>
            </div>
                 
            <div class = "ProWork">
                <h2 class = "sectionTitle"> Professional Work </h2> 
                <div class = "container" data-bind = "foreach : Work">
-                   <div class = "offset-by-three six columns">
                    <div class = "workRow">
                    <a target="_blank" data-bind = " attr : {href : URL }">
                    <div class = "row">
@@ -98,7 +99,7 @@
                        
                                     
                   </div>
-                  </div>
+
                   </a>
                   </div>
            </div>

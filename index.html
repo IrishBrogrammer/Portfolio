@@ -80,8 +80,16 @@
                 </div>
               </div>            
               
- 
-              
+              <div class = "Project Container" data-bind = "foreach : Projects">
+                <div class = "IsVisProject" data-bind = 'visible:  $index() % 2 != 0'>
+                  <h3 data-bind = " text: Title"></h3>
+                  <p data-bind = "text : Desc"></p>
+                    <a target="_blank"data-bind = " attr : {href : URL }">
+                      <p> Available on github </p>
+                    </a>
+                  </div>
+                </div>
+              </div>              
            </div>
        </div>
 

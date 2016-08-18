@@ -67,28 +67,31 @@
            <div class = "Projects">
              <h2 class = "sectionTitle"> Personal Projects </h2> 
               
-              <div class = "six columns">
-              
-              <div class = "Project Container" data-bind = "foreach : Projects">
-                <div class = "IsVisProject" data-bind = 'visible:  $index() % 2 == 0'>
-                  <h3 data-bind = " text: Title"></h3>
-                  <p data-bind = "text : Desc"></p>
-                    <a target="_blank"data-bind = " attr : {href : URL }">
-                      <p> Available on github </p>
-                    </a>
+              <div class = "offset-by-one four coloumns">
+                <div class = "Project Container" data-bind = "foreach : Projects">
+                  <div class = "IsVisProject" data-bind = 'visible:  $index() % 2 == 0'>
+                    <h3 data-bind = " text: Title"></h3>
+                        <p data-bind = "text : Desc"></p>
+                           <a target="_blank"data-bind = " attr : {href : URL }">
+                           <p> Available on github </p>
+                           </a>
+                    </div>
                   </div>
-                </div>
-              </div>            
+              </div>   
               
-              <div class = "Project Container" data-bind = "foreach : Projects">
-                <div class = "IsVisProject" data-bind = 'visible:  $index() % 2 != 0'>
-                  <h3 data-bind = " text: Title"></h3>
-                  <p data-bind = "text : Desc"></p>
-                    <a target="_blank"data-bind = " attr : {href : URL }">
-                      <p> Available on github </p>
-                    </a>
+              
+              <div class = "offset-by-seven four coloumns">
+                <div class = "Project Container" data-bind = "foreach : Projects">
+                  <div class = "IsVisProject" data-bind = 'visible:  $index() % 2 != 0'>
+                    <h3 data-bind = " text: Title"></h3>
+                        <p data-bind = "text : Desc"></p>
+                           <a target="_blank"data-bind = " attr : {href : URL }">
+                           <p> Available on github </p>
+                           </a>
+                    </div>
                   </div>
-                </div>
+              </div>                
+              
               </div>              
            </div>
        </div>

@@ -125,7 +125,13 @@ a
     border: 3px solid rgba(255,255, 255, 0.5 );
     text-align: center;
     font-size : 18px;
+    color : white;
 }
 
+#workRow:hover {
+  -webkit-transform: scale(1.005);
+      -ms-transform: scale(1.005);
+          transform: scale(1.005);
+}
 
 

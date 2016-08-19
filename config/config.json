@@ -29,6 +29,13 @@
 			"Thumb" : "images/csr_thumb.png"
 		},
 		{
+			"Title" : "CSR Classics",
+			"Desc"  : "",
+			"Link"  : "",
+			"Icon"  : "images/classics.png",
+			"Thumb" : "images/classics_thumb.jpp"
+		},
+		{
 			"Title" : "Zerolight",
 			"Desc"  : "",
 			"Link"  : "http://www.zerolight.com/",

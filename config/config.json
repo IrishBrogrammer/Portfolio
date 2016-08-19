@@ -47,22 +47,26 @@
 		{
 			"Title" : "Eventer ",
 			"Desc"  : "A unity framework for creating and triggering custom events without having to go through the apple/google play submission process.",
-			"Link"  : "https://github.com/IrishBrogrammer/Eventer" 
+			"Link"  : "https://github.com/IrishBrogrammer/Eventer",
+			"Icon"  : "em em-angry"
 		},
 		{
 			"Title" : "Paper",
 			"Desc" : "An on-going work in progress to create an alternativeto the unity logging system including a new console.",
-			"Link" : "https://github.com/IrishBrogrammer/PaperLog"
+			"Link" : "https://github.com/IrishBrogrammer/PaperLog",
+			"Icon"  : "em em-angry"
 		},
 		{
 			"Title" : "Arena Test",
 			"Desc" : "An app to compare your arena drafting skills to Hearthstone Professionals ",
-			"Link" : "https://github.com/IrishBrogrammer/ArenaTest"
+			"Link" : "https://github.com/IrishBrogrammer/ArenaTest",
+			"Icon"  : "em em-angry"
 		},
 		{
 			"Title" : "University Work",
 			"Desc"  : "Some screen shots of work completed at university",
-			"Link"  : "http://brianmcaleese.weebly.com/third-year.html"
+			"Link"  : "http://brianmcaleese.weebly.com/third-year.html",
+			"Icon"  : "em em-angry"
 		}
 	]
 }

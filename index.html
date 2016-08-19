@@ -24,6 +24,8 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -70,7 +72,9 @@
               <div class = "offset-by-two four columns">
                 <div class = "Project Container" data-bind = "foreach : Projects">
                   <div class = "IsVisProject" data-bind = 'visible:  $index() % 2 == 0'>
-                    <h3 class = "ProjectTitle" data-bind = " text: Title"></h3>
+                    <h3 class = "ProjectTitle" data-bind = " text: Title">
+                      <i data-bind=" css: Icon"></i>
+                    </h3>
                         <p data-bind = "text : Desc"></p>
                            <a target="_blank"data-bind = " attr : {href : URL }">
                            <p> Available on github </p>
@@ -131,21 +135,23 @@
     <div id = "contact">   
       
            <div class = "container">
-                
+                           
               <h2 class = "sectionTitle"> Contact Me </h2>
-            
               <p class = "contactText"> Please send me a message by email if you would like to contact me </p>
               
               <div class = "row">
-                 
-                    <div id = "emailBox">
-                  
-                    <a href ="mailto:bmcaleese12@gmail.com">
-                     bmcaleese12@gmail.com 
-                    </a>
+                    <div class = "offset-by-four four columns">
+                      <div id = "emailBox">
+                        <a href ="mailto:bmcaleese12@gmail.com">
+                          bmcaleese12@gmail.com 
+                        </a>
+                      </div>
                     </div>
               </div>
+           </div>
               
+              
+           <div class = "container">  
               <div class = "row">
               <div class = "offset-by-three six columns">
                   <div class = "SocialParent">
@@ -153,7 +159,7 @@
                        <ul class ="socialContainer" data-bind = "foreach : Social" >
                        <li class = "socialItem"> 
                            <a target="_blank"data-bind = " attr : {href : URL }">
-                           <i  data-bind=" css: Class"></i>
+                           <i class ="socialI"  data-bind=" css: Class"></i>
                            </a> 
                        </li>      
                        </ul>
@@ -161,8 +167,8 @@
                  </div>
             </div>
             </div>
-            
-           </div>
+    
+         </div>
    </div>
        
        

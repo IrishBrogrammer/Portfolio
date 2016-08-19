@@ -128,7 +128,7 @@ a
     color : white;
 }
 
-#workRow:hover {
+#emailBox:hover {
   -webkit-transform: scale(1.005);
       -ms-transform: scale(1.005);
           transform: scale(1.005);

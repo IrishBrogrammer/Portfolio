@@ -115,3 +115,10 @@ a
   font-family: 'Didact Gothic', sans-serif;  
   color: #333;
 }
+
+#emailBox
+{
+    width: 100%;
+    color : white;
+    height: 65px;  
+}

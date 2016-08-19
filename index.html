@@ -61,10 +61,8 @@
    
    <div class="container"> 
        <div class="row">     
-           <div class = "offset-by-two eight columns">   
            <h2 class = "sectionTitle">About</h2>
            <p id = "AboutText"" data-bind = "text : About"> </p>
-           </div>
        </div>
        
        <div class ="row">
@@ -74,7 +72,7 @@
              <h2 class = "sectionTitle"> Personal Projects </h2> 
             </div>
             
-              <div class = "offset-by-two four columns">
+              <div class = "offset-by-one five columns">
                 <div class = "Project Container" data-bind = "foreach : Projects">
                   <div class = "IsVisProject" data-bind = 'visible:  $index() % 2 == 0'>
                     <i data-bind=" css: Icon"></i>
@@ -88,7 +86,7 @@
                   </div>
               </div>   
               
-              <div class = "offset-by-one four columns">
+              <div class = "five columns">
                 <div class = "Project Container" data-bind = "foreach : Projects">
                   <div class = "IsVisProject" data-bind = 'visible:  $index() % 2 != 0'>
                     <i data-bind=" css: Icon"></i>

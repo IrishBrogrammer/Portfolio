@@ -32,6 +32,12 @@ h2
   padding-top: 1em;
 }
 
+
+i
+{
+  columns: white;  
+}
+
 a
 {
   text-decoration: none;

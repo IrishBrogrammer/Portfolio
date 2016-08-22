@@ -1,15 +1,15 @@
 
-function SocialViewModel( desc , url , img , cls  )
+// View model and construction for social icons
+function SocialViewModel( desc , url , cls  )
 {
 	this.Desc = desc;
 	this.URL = url;
-	this.ImgURL = img;
 	this.Class = cls;
 }
 
 function MapSocialModel( val ,key )
 {
-	return new SocialViewModel( val.desc , val.Link, val.Icon , val.Class);	
+	return new SocialViewModel( val.desc , val.Link , val.Class);	
 }
 
 

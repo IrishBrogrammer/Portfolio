@@ -4,34 +4,31 @@
 		{
 			"desc" : "Twitter",
 			"Link" : "https://twitter.com/IrishBrogrammer",
-			"Icon" : "images/twitter.png",
 			"Class" : "fa fa-twitter fa-4x"
 		},
 		{
 			"desc" : "LinkedIn",
 			"Link" : "https://www.linkedin.com/in/brian-mcaleese-5859ba49",
-			"Icon" : "images/linkedin.png",
 			"Class" : "fa fa-linkedin fa-4x"
 		},
 		{
 			"desc" : "Github",
 			"Link" : "https://github.com/IrishBrogrammer",
-			"Icon" : "images/github.png",
 			"Class" : "fa fa-github fa-4x"
 		}
 	],
 	"ProWork" : [
 		{
 			"Title" : "CSR Racing",
-			"Desc"  : "",
+			"Desc"  : " The best selling drag-racing series with over 130 million downloads. The ultimate drag race in the city streets, featuring over 100 licensed cars, stunning graphics , addictive gameplay and intense online player vs. player competition ",
 			"Link"  : "https://itunes.apple.com/us/app/csr-racing/id469369175",
 			"Icon"  : "images/csr.png",
 			"Thumb" : "images/csr_thumb.png"
 		},
 		{
 			"Title" : "CSR Classics",
-			"Desc"  : "",
-			"Link"  : "",
+			"Desc"  : " Drag-strip legends from the last 60 years come to life in CSR Classics. Race over 50 of the greatest cars ever made restoring them from rusty unloved shells into gorgeous icons of driving",
+			"Link"  : "https://itunes.apple.com/gb/app/csr-classics/id598603610?mt=8",
 			"Icon"  : "images/classics.png",
 			"Thumb" : "images/classics_thumb.jpg"
 		},

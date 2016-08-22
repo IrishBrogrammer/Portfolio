@@ -60,6 +60,9 @@ a
 .workRow
 {
     text-align:  center; 
+    color : black;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
 }
 
 

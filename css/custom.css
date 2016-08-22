@@ -15,7 +15,6 @@ body {
   margin: 0 auto;
   font-family: 'Didact Gothic', sans-serif;  
   line-height: 1.5;
-  padding: 4em 1em;
   color : #555;
 }
 
@@ -150,9 +149,9 @@ a
 }
 
 .emailBox:hover {
-  -webkit-transform: scale(1.005);
-      -ms-transform: scale(1.005);
-          transform: scale(1.005);
+  -webkit-transform: scale(1.01);
+      -ms-transform: scale(1.01);
+          transform: scale(1.01);
 }
 
 .IsVisProject
@@ -170,4 +169,6 @@ a
 #About
 {
     background-color: #f3f3f3;
+    float: left;
+    width : 100%;
 }

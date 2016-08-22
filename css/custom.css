@@ -149,4 +149,6 @@ a
 .IsVisProject
 {
   min-height: 220px;
+  float: left;
+  text-align: center;
 }

@@ -75,8 +75,8 @@
               <div class = "offset-by-one five columns">
                 <div class = "Project Container" data-bind = "foreach : Projects">
                   <div class = "IsVisProject" data-bind = 'visible:  $index() % 2 == 0'>
-                    <i data-bind=" css: Icon"></i>
-                    <h3 class = "ProjectTitle" data-bind = " text: Title">
+                  
+                    <h3 class = "ProjectTitle" data-bind = " text: Title"><i data-bind=" css: Icon"></i> 
                     </h3>
                         <p data-bind = "text : Desc"></p>
                            <a target="_blank"data-bind = " attr : {href : URL }">

@@ -119,7 +119,6 @@ a
 .ProjectTitle
 {
   font-family: 'Didact Gothic', sans-serif;  
-  
   color: #333;
 }
 
@@ -129,6 +128,12 @@ a
     margin-right: 5px;
     font-size: 2.5rem;
 }
+
+.ProjectText
+{
+    min-height: 80px;
+}
+
 
 .emailBox
 {
@@ -150,5 +155,6 @@ a
 {
   min-height: 220px;
   float: left;
-  text-align: center;
+  text-align: justify;
 }
+

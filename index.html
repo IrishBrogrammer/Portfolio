@@ -77,7 +77,7 @@
                   <div class = "IsVisProject" data-bind = "visible:  $index() % 2 == 0">
                     <i class ="ProjectIcon" data-bind=" css: Icon"></i>
                     <h3 class = "ProjectTitle" data-bind = " text: Title"> </h3>
-                        <p data-bind = "text : Desc"></p>
+                        <p class = "ProjectText" data-bind = "text : Desc"></p>
                            <a target="_blank"data-bind = " attr : {href : URL }">
                            <p> Available on github </p>
                            </a>
@@ -90,7 +90,7 @@
                   <div class = "IsVisProject" data-bind = 'visible:  $index() % 2 != 0'>
                     <i class ="ProjectIcon" data-bind=" css: Icon"></i>
                     <h3 class = "ProjectTitle" data-bind = " text: Title"></h3>
-                        <p data-bind = "text : Desc"></p>
+                        <p class = "ProjectText" data-bind = "text : Desc"></p>
                            <a target="_blank"data-bind = " attr : {href : URL }">
                             Available on github 
                            </a>

@@ -123,6 +123,13 @@ a
   color: #333;
 }
 
+.ProjectIcon
+{
+    float: left;
+    margin-right: 5px;
+    font-size: 2.5rem;
+}
+
 .emailBox
 {
     width: 100%;

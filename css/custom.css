@@ -63,7 +63,7 @@ a
     font-family: 'Didact Gothic', sans-serif;
     font-size: 15px;
     margin-bottom: 10px;
-    background-color: #FFFFEA;
+    border-radius: 4px;
 }
 
 
@@ -163,7 +163,9 @@ a
 
 #ProSection
 {
-  background-color: #C9C19F;
+  width : 100%;
+  float: left;
+  background-color: #f9fbfb;
 }
 
 #About

@@ -146,4 +146,7 @@ a
           transform: scale(1.005);
 }
 
-
+.IsVisProject
+{
+  min-height: 220px;
+}

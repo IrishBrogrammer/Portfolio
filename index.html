@@ -108,6 +108,14 @@
                <div class = "container" data-bind = "foreach : Work">
                    <div class = "workRow">
                    <a target="_blank" data-bind = " attr : {href : URL }">
+                   
+                   <div class = "row">
+                     <div class ="twelve columns">
+                     <h1 data-bind = "text: Title"></h1>
+                     </div>
+                   </div>  
+                     
+                     
                    <div class = "row">
                        
                         <div class = "three columns">
@@ -115,10 +123,7 @@
                        </div>
                        
                        <div class = "six columns">
-                          <div "workAbout">
-                               <p data-bind = "text : Title" ></p>
                                <p  data-bind = "text : Desc"></p>
-                          </div>     
                        </div>
                        
                         <div class = "three columns">

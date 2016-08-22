@@ -72,6 +72,13 @@ a
           transform: scale(1.005);
 }
 
+.workDesc
+{
+    text-align:  center; 
+    color : black;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
+}
 
 #AboutText
 {

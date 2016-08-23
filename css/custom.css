@@ -174,3 +174,20 @@ a
     float: left;
     width : 100%;
 }
+
+.ProRow
+{
+  max-height: 200px;
+}
+
+.ProTitle
+{
+  float: left;
+  max-height: 75px;  
+}
+
+.ProDesc
+{
+  float: left;
+  max-height: 125px;
+}

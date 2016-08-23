@@ -117,27 +117,34 @@
                  <div class = "workRow">
                     
                     <a target="_blank" data-bind = " attr : {href : URL }">
-                    <div class = "row">
-                       <div class ="twelve columns">
-                       <h1 data-bind = "text: Title"></h1>
-                       </div>
-                    </div>  
-
-                    <div class = "row">   
-                       <div class = "three columns">
-                          <img class = "u-full-width" data-bind = " attr : { src : Icon}"/>
-                       </div>
+                       <div class = "row">
+                          <div class ="twelve columns">
+                             <h1 data-bind = "text: Title"></h1>
+                          </div>
+                       </div>  
+                    
+                       <div class = "ProRow">
+                       <div class = "row">   
+                          <div class = "three columns">
+                             <img class = "u-full-width" data-bind = " attr : { src : Icon}"/>
+                          </div>
                        
-                       <div class = "six columns">
-                          <p class = "workDesc" data-bind = "text : Desc"></p>
-                       </div>
+                          <div class = "six columns">
+                             <div class ="ProTitle">
+                               <h2 data-bind ="text : Title"></h1> 
+                             </div>
+                             <div class = "ProDesc">
+                              <p class = "workDesc" data-bind = "text : Desc"></p>
+                             </div>
+                          </div>
                        
-                      <div class = "three columns">
-                         <img class = "u-full-width" data-bind = " attr : { src : Thumbnail}"/>
-                       </div>         
-                    </div>
+                          <div class = "three columns">
+                             <img class = "u-full-width" data-bind = " attr : { src : Thumbnail}"/>
+                          </div>         
+                      </div>
+                      </div>
 
-                    </a>
+                   </a>
                    
               </div>
            </div>

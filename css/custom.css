@@ -177,12 +177,14 @@ a
 {
   float: left;
   max-height: 75px;  
+  text-align: center;
 }
 
 .ProDesc
 {
   float: left;
   max-height: 125px;
+  font-size: 12px;
 }
 
 

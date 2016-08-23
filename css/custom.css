@@ -25,13 +25,6 @@ strong
   color: #333;
 }
 
-h2
-{
-  margin-top: 1em;
-  padding-top: 1em;
-}
-
-
 .socialI
 {
   color: white;  
@@ -190,4 +183,17 @@ a
 {
   float: left;
   max-height: 125px;
+}
+
+
+.Push
+{
+  height: 200px;
+  padding-bottom: 40px;
+}
+
+
+.TestRow
+{
+  max-height: 200px;
 }

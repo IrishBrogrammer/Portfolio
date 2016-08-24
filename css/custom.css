@@ -46,7 +46,7 @@ a
 {
   font-family: 'Lobster', sans-serif;
   text-align: center;
-  margin-bottom : 30px;
+  margin-bottom : 50px;
   margin-top    : 25px;
 }
 
@@ -158,14 +158,15 @@ a
 
 #ProSection
 {
+  background-color: #f3f3f3;
   width : 100%;
   float: left;
-  background-color: #e8e8e8;
+ 
 }
 
 #About
 {
-    background-color: #f3f3f3;
+    background-color: #e8e8e8;
     float: left;
     width : 100%;
     min-height: 500px;
@@ -174,6 +175,7 @@ a
 .ProRow
 {
   max-height: 200px;
+  background-color: rgba(250,250,250,0.5);
 }
 
 .ProTitle

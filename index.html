@@ -61,9 +61,11 @@
    
    <div id = "About">
    <div class="container"> 
-       <div class="row">     
-           <h2 class = "sectionTitle">About</h2>
-           <p id = "AboutText"" data-bind = "text : About"> </p>
+       <div class="row">   
+           <div class = "offset-by-one ten columns">  
+              <h2 class = "sectionTitle">About</h2>
+              <p id = "AboutText"" data-bind = "text : About"> </p>
+           </div>
        </div>
    </div>
    </div> 
@@ -96,8 +98,7 @@
                         <i class ="ProjectIcon" data-bind=" css: Icon"></i>
                         <h3 class = "ProjectTitle" data-bind = " text: Title"></h3>
                         <p class = "ProjectText" data-bind = "text : Desc"></p>
-                           <a target="_blank"data-bind = " attr : {href : URL }">
-                            Available on github 
+                           <a target="_blank"data-bind = " text : Desc , attr : {href : URL }">
                            </a>
                     </div>
                   </div>

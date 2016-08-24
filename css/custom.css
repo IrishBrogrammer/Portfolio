@@ -46,6 +46,7 @@ a
 {
   font-family: 'Lobster', sans-serif;
   text-align: center;
+  margin-bottom : 20px;
 }
 
 
@@ -77,7 +78,7 @@ a
 #AboutText
 {
     font-family: 'Didact Gothic', sans-serif;
-    text-align: center;
+    text-align: justify;
     font-size:  20px;
 }
 
@@ -166,6 +167,7 @@ a
     background-color: #f3f3f3;
     float: left;
     width : 100%;
+    min-height: 500px;
 }
 
 .ProRow
@@ -187,15 +189,10 @@ a
   font-size: 12px;
 }
 
-
-.Push
+.ContactTitle
 {
-  height: 200px;
-  padding-bottom: 40px;
-}
-
-
-.TestRow
-{
-  max-height: 200px;
+  color: white;
+  font-family: 'Lobster', sans-serif;
+  text-align: center;
+  margin-bottom : 20px;
 }

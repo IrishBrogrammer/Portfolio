@@ -13,17 +13,18 @@ function MapSocialModel( val ,key )
 }
 
 
-function ProjectViewModel( title , desc, link , icon )
+function ProjectViewModel( title , desc, link , linktext , icon )
 {
 	this.Title = title;
 	this.Desc = desc;
 	this.URL = link;
+	this.LinkText = linktext;
 	this.Icon = icon;
 }
 
 function MapProjectModel( val , key )
 {
-	return new ProjectViewModel( val.Title , val.Desc , val.Link , val.Icon);
+	return new ProjectViewModel( val.Title , val.Desc , val.Link , val.LinkText , val.Icon);
 }
 
 

@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   font-family: 'Didact Gothic', sans-serif;  
   line-height: 1.5;
-  color : #555;
+  color :    rgba(34,34,34,0.8);
 }
 
 h1,
@@ -160,7 +160,7 @@ a
 {
   width : 100%;
   float: left;
-  background-color: #f9fbfb;
+  background-color: #e8e8e8;
 }
 
 #About

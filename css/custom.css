@@ -68,6 +68,13 @@ a
           transform: scale(1.005);
 }
 
+.workImage
+{
+  margin-top: 25%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .workDesc
 {
     text-align:  justify; 
@@ -181,7 +188,7 @@ a
   max-height: 200px;
   background-color: rgba(250,250,250,0.5);
   border: 5px solid rgba(255,255, 255, 0.5 );
-  box-shadow: 10px 10px 5px rgba( 200, 200, 200, 0.8);
+  box-shadow: 10px 10px 5px rgba( 200, 200, 200, 0.3);
   border-radius: 25px;
   padding: 10px;
   margin-bottom: 20px;
@@ -191,7 +198,7 @@ a
 {
   background-color: rgba(250,250,250,0.5);
   border: 5px solid rgba(255,255, 255, 0.5 );
-  box-shadow: 10px 10px 5px rgba( 200, 200, 200, 0.8);
+  box-shadow: 10px 10px 5px rgba( 200, 200, 200, 0.3;
   border-radius: 25px;
   padding: 10px;
   margin-bottom: 20px;
@@ -232,3 +239,4 @@ a
   font-size: 16px;
   text-align: center;
 }
+

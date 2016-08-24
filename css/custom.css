@@ -168,11 +168,20 @@ a
 
 #About
 {
-    background-color: #f3f3f3;
+    background-color:  rgba(255,255, 255, 0.8 );
     float: left;
     width : 100%;
     min-height: 500px;
 }
+
+#ProjectSection
+{
+    background-color: #f3f3f3;
+    float: left;
+    width : 100%;  
+}
+
+
 
 .ProRow
 {

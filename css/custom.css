@@ -86,8 +86,9 @@ a
 #AboutText
 {
     font-family: 'Didact Gothic', sans-serif;
-    text-align: justify;
+    text-align: center;
     font-size:  20px;
+    margin-bottom: 30px;
 }
 
 .socialItem

@@ -1,5 +1,9 @@
 {
-	"About"       : "Hi! My name is Brian McAleese and I am currently a software engineer working at Zerolight creating custom car configurators for luxury car brands such as Pagani. Before working at Zerolight I worked on the smash hit mobile racing game CSR Racing where I was responsible for    implementing a varity of gameplay features and implementing a large amount of the UI <br>. I graduated from the University of Central Lancashire in 2012 with a First class Honours degree in Videogame Development. \n In my spare time I enjoying programming,food, going to the gym, reading programming blogs and binging on Netflix. ",
+	"About"       :
+		[
+			"Hi my name is Brian",
+			"This is my portfolio"	
+		], 
 	"SocialLinks" : [
 		{
 			"desc" : "Twitter",

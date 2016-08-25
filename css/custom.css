@@ -241,3 +241,11 @@ a
   text-align: center;
 }
 
+.Portrait
+{
+  width: 256px;
+  height: 256px;
+  border-radius: 25%;
+  margin-bottom: 30px;
+
+}

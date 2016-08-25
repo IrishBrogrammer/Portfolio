@@ -38,7 +38,7 @@
 		},
 		{
 			"Title" : "Zerolight",
-			"Desc"  : "",
+			"Desc"  : "ZeroLight’s real-time 3D solutions help the automotive industry engage customers and sell smarter. Clients include Audi and Pagani",
 			"Link"  : "http://www.zerolight.com/",
 			"Icon"  : "images/newzl.png",
 			"Thumb" : "images/pagani_thumb.jpg"
@@ -71,7 +71,7 @@
 			"Desc"  : "At Univeristy I created a website that showed off the work I had completed over my three years",
 			"Link"  : "http://brianmcaleese.weebly.com/third-year.html",
 			"LinkText" : "Available here",
-			"Icon"  : "em em-angry"
+			"Icon"  : "em em-school"
 		}
 	]
 }

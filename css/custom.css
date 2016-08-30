@@ -241,6 +241,23 @@ a
   text-align: center;
 }
 
+
+#Heading
+{
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  margin-bottom: 50px;
+}
+
+#Title
+{
+  font-family: 'Didact Gothic', sans-serif;  
+  color: white;
+  font-size:  1.5rem;
+  float: left;
+}
+
 .Portrait
 {
   width: 128px;

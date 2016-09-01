@@ -5,9 +5,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title> Brian McAleese</title>
+  <meta name="description" content=" Brian McAleese's portfolio'">
+  <meta name="author" content=" Brian McAleese">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -16,31 +16,205 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+
+  
+  <!-- Javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript"" src="js/knockout-3.4.0.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82627012-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+ 
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
+  
+  <!-- Navigation Bar
+  -------------------------------------------------- -->
+   
+
+   <div id = "Heading">
+       <div id = "Title"> Brian McAleese Portfolio </div>
+   </div>
+
+   <div id = "About">
+   <div class="container"> 
+       
+       <div class =" row">
+          <div class = "offset-by-one ten columns">  
+              <h2 class = "sectionTitle">About</h2>
+          </div>
+       </div>
+       
+       <div class = "row">
+          <div class = "offset-by-four two columns">
+                  <img class = "Portrait" src = "images/me.png"/>
+          </div>
+       </div>
+        
+       <div class="row">   
+           <div class = "offset-by-one ten columns">  
+              <div class = "AboutContainer" data-bind = "foreach : About">
+                <p id = "AboutText"" data-bind = "text : $data"> </p>
+              </div>
+           </div>
+       </div>
+   </div> 
+   </div>
+   
+  <div id = "ProjectSection">
+     <div class="container"> 
+        <div class ="row">
+           <div class = "Projects">
+            
+              <div class ="offset-by-two eight columns">
+                 <h2 class = "sectionTitle"> Personal Projects </h2> 
+              </div>
+            
+               <div class = "offset-by-one five columns">
+                  <div class = "Project Container" data-bind = "foreach : Projects">
+                     <div class = "IsVisProject" data-bind = "visible:  $index() % 2 == 0">
+                        <i class ="ProjectIcon" data-bind=" css: Icon"></i>
+                        <h3 class = "ProjectTitle" data-bind = " text: Title"> </h3>
+                        <p class = "ProjectText" data-bind = "text : Desc"></p>
+                           <a class ="ProjectLink" target="_blank"data-bind = " text : LinkText , attr : {href : URL }">
+                           </a>
+                     </div>
+                  </div>
+               </div>   
+              
+               <div class = "five columns">
+                  <div class = "Project Container" data-bind = "foreach : Projects">
+                     <div class = "IsVisProject" data-bind = 'visible:  $index() % 2 != 0'>
+                        <i class ="ProjectIcon" data-bind=" css: Icon"></i>
+                        <h3 class = "ProjectTitle" data-bind = " text: Title"></h3>
+                        <p class = "ProjectText" data-bind = "text : Desc"></p>
+                           <a class ="ProjectLink" target="_blank"data-bind = " text : LinkText , attr : {href : URL }">
+                           </a>
+                    </div>
+                  </div>
+               </div>                
+              
+           </div>              
+        </div>
     </div>
   </div>
+
+  <div id ="ProSection">
+     <div class="container"> 
+        <div class ="row">
+           <div class = "ProWork">
+              <h2 class = "sectionTitle"> Professional Work </h2> 
+              <div class = "container" data-bind = "foreach : Work">
+                 <div class = "workRow">
+                    
+                    <a target="_blank" data-bind = " attr : {href : URL }">
+                   
+                       <div class = "ProRow">
+                       <div class = "row">   
+                          <div class = "three columns">
+                             <img class = "workImage" data-bind = " attr : { src : Icon}"/>
+                          </div>
+                       
+                          <div class = "six columns">
+                             <div class ="ProTitle">
+                               <h4 data-bind ="text : Title"></h4> 
+                             </div>
+                             <div class = "ProDesc">
+                              <p class = "workDesc" data-bind = "text : Desc"></p>
+                             </div>
+                          </div>
+                       
+                          <div class = "three columns">
+                             <img class = "workImage" data-bind = " attr : { src : Thumbnail}"/>
+                          </div>         
+                      </div>
+                      </div>
+
+                   </a>
+                   
+              </div>
+           </div>
+       
+           </div>
+        </div>
+    </div>
+  </div>
+    
+    <div id = "contact">   
+      
+           <div class = "container">
+              <div class = "row">     
+                 <div class = "offset-by-three six columns">   
+                    <h2 class = "ContactTitle"> Contact Me </h2>
+                    <p class = "contactText"> Please send me a message by email if you would like to contact me </p>
+                 </div>
+              </div>
+              
+              <div class = "row">
+                    <div class = "offset-by-four four columns">
+                     
+                        <a href ="mailto:bmcaleese12@gmail.com">
+                           <div class = "emailBox">
+                              <p>bmcaleese12@gmail.com</p>
+                           </div>
+                        </a>
+                    </div>
+              </div>
+
+              <div class = "row">
+              <div class = "offset-by-four  four columns">
+                  <div class = "SocialParent">
+                       <ul class ="socialContainer" data-bind = "foreach : Social" >
+                       <li class = "socialItem"> 
+                           <a target="_blank"data-bind = " attr : {href : URL }">
+                           <i class ="socialI"  data-bind=" css: Class"></i>
+                           </a> 
+                       </li>
+                       </ul>
+                 </div>
+            </div>
+            </div>
+    
+         </div>
+   </div>
+   
+
+   
+       
+       
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+<script type='text/javascript' src='js/app.js'></script>
 </html>
+
+
+    

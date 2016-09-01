@@ -1,0 +1,275 @@
+
+header
+{
+  background-color: #263d36;
+  background-image: url("images/title.jpg");
+  background-position: center top;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align:  center;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Didact Gothic', sans-serif;  
+  line-height: 1.5;
+  color :    rgba(34,34,34,0.8);
+}
+
+h1,
+h2,
+strong
+{
+  color: #333;
+}
+
+.socialI
+{
+  color: white;  
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.socialContainer
+{
+  margin: 0px;
+  list-style-type: none;
+}
+
+.sectionTitle
+{
+  font-family: 'Lobster', sans-serif;
+  text-align: center;
+  margin-bottom : 50px;
+  margin-top    : 25px;
+}
+
+
+.workRow
+{
+    text-align:  center; 
+    color : black;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+
+.workRow:hover {
+  -webkit-transform: scale(1.005);
+      -ms-transform: scale(1.005);
+          transform: scale(1.005);
+}
+
+.workImage
+{
+  margin-top: 25%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.workDesc
+{
+    text-align:  justify; 
+    color : rgba(34,34,34,0.8);
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
+}
+
+#AboutText
+{
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    font-size:  20px;
+    margin-bottom: 30px;
+}
+
+.socialItem
+{
+  padding: 5px;
+  display: inline;
+  color : white;
+}
+
+
+.socialIcon
+{
+   width : 48px;
+   height: 48px;
+   border-radius: 50%;
+}
+
+#contact {
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a9e4f7), color-stop(80%,#0fb4e7));
+}
+
+.contactText
+{
+  color : white;
+  text-align: center;
+  font-size:  20px;
+  font-family: 'Didact Gothic', sans-serif;  
+}
+
+.ProjectTitle
+{
+  font-family: 'Didact Gothic', sans-serif;  
+  color: #333;
+}
+
+.ProjectIcon
+{
+    float: left;
+    margin-right: 5px;
+    font-size: 2.5rem;
+}
+
+.ProjectText
+{
+    min-height: 80px;
+    font-size: 17px;
+}
+
+
+.emailBox
+{
+    width: 100%;
+    height: 40px;  
+    border: 3px solid rgba(255,255, 255, 0.5 );
+    text-align: center;
+    font-size : 18px;
+    color : white;
+}
+
+.emailBox:hover {
+  -webkit-transform: scale(1.01);
+      -ms-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+
+
+#ProSection
+{
+  background-color: #e8e8e8;
+  width : 100%;
+  float: left;
+  padding-bottom: 50px;
+}
+
+#About
+{
+    background-color:  rgba(255,255, 255, 0.8 );
+    float: left;
+    width : 100%;
+    padding-bottom: 50px;
+}
+
+#ProjectSection
+{
+    background-color: #f3f3f3;
+    float: left;
+    width : 100%;  
+    padding-bottom: 50px;
+}
+
+
+.ProRow
+{
+  max-height: 200px;
+  background-color: rgba(250,250,250,0.5);
+  border: 5px solid rgba(255,255, 255, 0.5 );
+  box-shadow: 10px 10px 5px rgba( 200, 200, 200, 0.3);
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.IsVisProject
+{
+  background-color: rgba(250,250,250,0.5);
+  border: 5px solid rgba(255,255, 255, 0.5 );
+  box-shadow: 10px 10px 5px rgba( 200, 200, 200, 0.3);
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 20px;
+  min-height: 220px;
+  float: left;
+  text-align: justify;
+}
+
+
+.ProTitle
+{
+  float: left;
+  max-height: 75px;  
+  text-align: center;
+  color : black;
+  width : 100%;
+}
+
+.ProDesc
+{
+  float: left;
+  max-height: 125px;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.ContactTitle
+{
+  color: white;
+  font-family: 'Lobster', sans-serif;
+  text-align: center;
+  margin-bottom : 20px;
+  margin-top: 30px;
+}
+
+
+.ProjectLink
+{
+  font-size: 16px;
+  text-align: center;
+}
+
+
+#Heading
+{
+  width: 100%;
+  height: 50px;
+  background-color: #e8e8e8;
+  margin-bottom: 50px;
+}
+
+#Title
+{
+  font-family: 'Lobster', sans-serif;  
+  font-size:  35px;
+  float: left;
+  color :   #333 ;
+  margin-left : 25px;
+}
+
+.Portrait
+{
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-left : 62%;
+}
+
+@media(max-width: 800px) {
+    .Portrait {
+        display: none !important;
+    }
+}

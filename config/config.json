@@ -1,0 +1,77 @@
+{
+	"About"       :
+		[
+			"Hi! My name is Brian McAleese and I am currently a software engineer working at Zerolight creating custom car configurators for luxury car brands such as Pagani. Before working at Zerolight I worked on the smash hit mobile racing game CSR Racing where I was responsible for    implementing a varity of gameplay features and implementing a large amount of the UI",
+			"I graduated from the University of Central Lancashire in 2012 with a First class Honours degree in Videogame Development.In my spare time I enjoying programming,food, going to the gym, reading programming blogs and binging on Netflix. "	
+		], 
+	"SocialLinks" : [
+		{
+			"desc" : "Twitter",
+			"Link" : "https://twitter.com/IrishBrogrammer",
+			"Class" : "fa fa-twitter fa-4x"
+		},
+		{
+			"desc" : "LinkedIn",
+			"Link" : "https://www.linkedin.com/in/brian-mcaleese-5859ba49",
+			"Class" : "fa fa-linkedin fa-4x"
+		},
+		{
+			"desc" : "Github",
+			"Link" : "https://github.com/IrishBrogrammer",
+			"Class" : "fa fa-github fa-4x"
+		}
+	],
+	"ProWork" : [
+		{
+			"Title" : "CSR Racing",
+			"Desc"  : "The best selling drag-racing series with over 130 million downloads,over 100 licensed cars, stunning graphics , addictive gameplay and intense online player vs. player competition ",
+			"Link"  : "https://itunes.apple.com/us/app/csr-racing/id469369175",
+			"Icon"  : "images/csr.png",
+			"Thumb" : "images/csr_thumb.png"
+		},
+		{
+			"Title" : "CSR Classics",
+			"Desc"  : " Drag-strip legends from the last 60 years come to life in CSR Classics. Race over 50 of the greatest cars ever made restoring them from rusty unloved shells into gorgeous icons of driving",
+			"Link"  : "https://itunes.apple.com/gb/app/csr-classics/id598603610?mt=8",
+			"Icon"  : "images/classics.png",
+			"Thumb" : "images/classics_thumb.jpg"
+		},
+		{
+			"Title" : "Zerolight",
+			"Desc"  : "ZeroLight’s real-time 3D solutions help the automotive industry engage customers and sell smarter. Clients include Audi and Pagani",
+			"Link"  : "http://www.zerolight.com/",
+			"Icon"  : "images/newzl.png",
+			"Thumb" : "images/pagani_thumb.jpg"
+		}	
+	],
+	"ProjectLinks" : [	
+		{
+			"Title" : "Eventer ",
+			"Desc"  : "A unity framework for creating and triggering custom events without having to go through the apple/google play submission process.",
+			"Link"  : "https://github.com/IrishBrogrammer/Eventer",
+			"LinkText" : "Available on github",
+			"Icon"  : "em em-airplane"
+		},
+		{
+			"Title" : "Paper",
+			"Desc" : "An on-going work in progress to create an alternativeto the unity logging system including a new console.",
+			"Link" : "https://github.com/IrishBrogrammer/PaperLog",
+			"LinkText" : "Available on github",
+			"Icon"  : "em em-pencil"
+		},
+		{
+			"Title" : "Arena Test",
+			"Desc" : "An app to compare your arena drafting skills to Hearthstone Professionals ",
+			"Link" : "https://github.com/IrishBrogrammer/ArenaTest",
+			"LinkText" : "Available on github",
+			"Icon"  : "em em-school_satchel"
+		},
+		{
+			"Title" : "University Work",
+			"Desc"  : "At Univeristy I created a website that showed off the work I had completed over my three years",
+			"Link"  : "http://brianmcaleese.weebly.com/third-year.html",
+			"LinkText" : "Available here",
+			"Icon"  : "em em-school"
+		}
+	]
+}

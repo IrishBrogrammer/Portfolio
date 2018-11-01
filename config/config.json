@@ -44,7 +44,14 @@
 			"Thumb" : "images/pagani_thumb.jpg"
 		}	
 	],
-	"ProjectLinks" : [	
+	"ProjectLinks" : [
+		{
+			"Title" : "Vuew",
+			"Desc" : "Scripts to pseudo localisation of strings in unity",
+			"Link" : "https://github.com/IrishBrogrammer/Vuew",
+			"LinkText" : "Available on github",
+			"Icon"  : "em em-school_satchel"
+		},
 		{
 			"Title" : "Eventer ",
 			"Desc"  : "A unity framework for creating and triggering custom events without having to go through the apple/google play submission process.",
@@ -58,13 +65,6 @@
 			"Link" : "https://github.com/IrishBrogrammer/PaperLog",
 			"LinkText" : "Available on github",
 			"Icon"  : "em em-pencil"
-		},
-		{
-			"Title" : "Arena Test",
-			"Desc" : "An app to compare your arena drafting skills to Hearthstone Professionals ",
-			"Link" : "https://github.com/IrishBrogrammer/ArenaTest",
-			"LinkText" : "Available on github",
-			"Icon"  : "em em-school_satchel"
 		},
 		{
 			"Title" : "University Work",
